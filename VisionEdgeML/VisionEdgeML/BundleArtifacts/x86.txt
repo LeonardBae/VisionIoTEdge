@@ -1,0 +1,1 @@
+MainPackage=C:\Users\Junghwan\source\repos\VisionEdgeML\VisionEdgeML\bin\x86\Debug\VisionEdgeML_1.0.0.0_x86_Debug.appx
