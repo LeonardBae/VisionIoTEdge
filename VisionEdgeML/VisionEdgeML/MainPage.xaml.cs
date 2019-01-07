@@ -20,7 +20,7 @@ namespace VisionEdgeML
     {
         private static DispatcherTimer dTimer;
         static RegistryManager registryManager;
-        public static string connectionString = "HostName=mdsedgehub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=xLTxQkkmMA1zfazMHU101qJ88YdkZm/CTIkkW/LFk84=";
+        public static string connectionString = "";
         ObservableCollection<SnackData> dataList = new ObservableCollection<SnackData>();
         int totalsum = 0;
         //private static Twin deviceTwin;

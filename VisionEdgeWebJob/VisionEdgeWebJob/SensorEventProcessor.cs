@@ -65,20 +65,6 @@ namespace VisionEdgeWebJob
                             flag[i] = 0;
                         }
                     }
-                    //
-                    //deviceClient = DeviceClient.CreateFromConnectionString("HostName=japanholhub.azure-devices.net;DeviceId=diddevice;SharedAccessKey=e9adjo4n+oFDx5emd6a/xyPjKr7LwZKQ6y89YfvHGNo=");
-
-                    //string jsonString = Encoding.UTF8.GetString(eventData.GetBytes());
-
-                    //Trace.TraceInformation(string.Format("Message received at '{0}'. Partition: '{1}'",
-                    //    eventData.EnqueuedTimeUtc.ToLocalTime(), this.partitionContext.Lease.PartitionId));
-
-                    //Trace.TraceInformation(string.Format("-->Raw Data: '{0}'", jsonString));
-
-                    //SensorEvent newSensorEvent = this.DeserializeEventData(jsonString);
-
-                    //Trace.TraceInformation(string.Format("-->Serialized Data: '{0}', '{1}'", newSensorEvent.Tag, newSensorEvent.Probability));
-
                  
                 }
                 catch (Exception ex)

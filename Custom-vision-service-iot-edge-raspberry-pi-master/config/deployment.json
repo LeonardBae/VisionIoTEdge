@@ -10,9 +10,9 @@
             "loggingOptions": "",
             "registryCredentials": {
               "registryName": {
-                "username": "hancommds",
-                "password": "UpJEuqlLd=zpQa2dWyApySTUFRQ0z9rq",
-                "address": "hancommds.azurecr.io"
+                "username": "",
+                "password": "",
+                "address": ""
               }
             }
           }
@@ -47,7 +47,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "hancommds.azurecr.io/cameracapture:0.2.6-arm32v7",
+              "image": "",
               "createOptions": "{\"Env\":[\"VIDEO_PATH=0\",\"IMAGE_PROCESSING_ENDPOINT=http://image-classifier-service:80/image\", \"VERBOSE=TRUE\", \"RESIZE_WIDTH=256\", \"RESIZE_HEIGHT=256\"], \"HostConfig\":{\"Binds\":[\"/dev/video0:/dev/video0\"],\"Privileged\":true}}"
             }
           },
@@ -57,7 +57,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "hancommds.azurecr.io/sensehatdisplay:0.2.11-arm32v7",
+              "image": "",
               "createOptions": "{\"Env\":[\"THRESHOLD=0.9\"], \"HostConfig\":{\"Binds\":[\"/dev/i2c1:/dev/i2c1\"],\"Privileged\":true}}"
             }
           },
@@ -67,7 +67,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "hancommds.azurecr.io/imageclassifierservice:0.2.4-arm32v7",
+              "image": "",
               "createOptions": ""
             }
           }
